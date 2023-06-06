@@ -2,7 +2,7 @@
 # react-native-google-pay
 [![react-native version](https://img.shields.io/badge/react--native-0.41-0ba7d3.svg?style=flat-square)](https://github.com/facebook/react-native/releases/tag/v0.41.0)
 ![npm](https://img.shields.io/npm/dw/react-native-google-pay.svg?style=flat-square)
-[![npm (tag)](https://img.shields.io/npm/v/react-native-google-pay/latest.svg?style=flat-square)](https://github.com/busfor/react-native-google-pay/tree/master)
+[![npm (tag)](https://img.shields.io/npm/v/react-native-google-pay/latest.svg?style=flat-square)](https://github.com/garyi-inmanage/react-native-google-pay/tree/master)
 
 Accept Payments with Google Pay for React Native apps.
 
