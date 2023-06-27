@@ -62,7 +62,9 @@ public class PaymentsUtil {
 
   private static JSONObject getMerchantInfo(ReadableMap merchant) throws JSONException {
     JSONObject merchantInfo = new JSONObject();
-    Log.w(TAG, "[GooglePayUtil]: MerchantInfo: " + "[" + merchant.getString("merchantName") + ", " + merchant.getString("merchantId") "]");
+    Log.w(TAG, "[GooglePayUtil]: MerchantInfo: " + 
+          "[" + merchant.getString("merchantName") + 
+          ", " + merchant.getString("merchantId") + "]");
     merchantInfo.put("merchantName", merchant.getString("merchantName"));
     merchantInfo.put("merchantId", merchant.getString("merchantId"));
     return merchantInfo;
