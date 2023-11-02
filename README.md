@@ -117,3 +117,23 @@ GooglePay.isReadyToPay(allowedCardNetworks, allowedCardAuthMethods)
 You can run the demo by cloning the project and running:
 
 `$ yarn demo`
+
+## Releases
+
+- On `master` branch
+- Increment version in package.json
+- Commit changes
+- Tag the commit with `vX.X.X`
+- Push changes
+- Run `NPM_TOKEN=token npm publish`. Replace `token` with your generated Access Token
+
+### CI Release
+
+- If there will be allowed runners in the future, then:
+  - remove `.unsused` from `.gitlab-ci.yml` file
+  - change (alternatively delete the file, it would be created by the script) content of `.npmrc` to:
+
+```
+@${CI_PROJECT_ROOT_NAMESPACE}:registry=${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/npm/
+${CI_API_V4_URL#http*:}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=\${CI_JOB_TOKEN}
+```
