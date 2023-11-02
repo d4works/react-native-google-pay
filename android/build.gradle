@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.android.tools.build:gradle:7.4.2'
     }
 }
 
@@ -17,7 +17,7 @@ android {
     buildToolsVersion "33.0.1"
 
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 21
         compileSdkVersion = 33
         targetSdkVersion = 33
         versionCode 1
@@ -35,7 +35,7 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.google.android.gms:play-services-wallet:19.1.0'
+    implementation 'com.google.android.gms:play-services-wallet:19.2.1'
     implementation 'androidx.appcompat:appcompat:1.4.2'
 }
   
