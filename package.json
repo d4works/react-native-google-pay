@@ -1,5 +1,5 @@
 {
-  "name": "@crocodille/react-native-google-pay",
+  "name": "@d4works/react-native-google-pay",
   "version": "2.2.2",
   "description": "React Native bridge for Google Pay",
   "main": "index.js",
@@ -20,7 +20,7 @@
   "nativePackage": true,
   "repository": {
     "type": "git",
-    "url": "https://gitlab.zensys.cz/crocodille/react-native-google-pay.git"
+    "url": "https://github.com/d4works/react-native-google-pay.git"
   },
   "peerDependencies": {
     "react-native": ">=0.60.0"
